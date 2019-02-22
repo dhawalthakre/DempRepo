@@ -1,0 +1,43 @@
+<config>
+	<!-- Local Only -->
+	<Fixed>
+		<AppConfig>
+			<Browser>Chrome</Browser>
+			<ENV>
+				<URL>http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/Login.aspx/</URL>
+				<UserName>Tester</UserName>					
+				<Password>test</Password>
+				<CarePathwayOwner>user_test@xxxx.com</CarePathwayOwner>					
+				<CarePathwayOwnerPassword>AETest123</CarePathwayOwnerPassword>
+<!-- 				<TestEnvironment></TestEnvironment> TestEnvironment=Prod, QA, Dev -->
+<!-- 				<TestDataCriteria></TestDataCriteria> TestEnvironment=Passed, Failed, Sanity,blank(This signify All records need to execute -->
+			</ENV>
+			<ResultsPath>Results</ResultsPath>	
+			<!--mail server details need to be mentioned here -->
+			<SMTPServer>mail.xxxx.co.in</SMTPServer>
+			<SMTPPort>25</SMTPPort>
+			<FromEmailAddress>test_user2@xxxx.com</FromEmailAddress>
+			<FromEmailPassword>password@123</FromEmailPassword> 
+			<ToEmailAddress>test_user2@xxxx.co.in</ToEmailAddress>	
+			<Subject>Test Execution Report</Subject>
+			<Message>test Suite execution completed</Message>			
+		</AppConfig>
+
+		<FrameworkConfig>
+			<TestDataPath>testdata</TestDataPath>
+			<ORPath>objectrepository</ORPath>
+			<PageTimeoutInSeconds>30</PageTimeoutInSeconds>
+			<ElementTimeoutInSeconds>30</ElementTimeoutInSeconds>
+			<PollIntervalInMilliSeconds>1000</PollIntervalInMilliSeconds>
+			<SendEmails>False</SendEmails>
+			<CaptureScreenshots>True</CaptureScreenshots>
+		</FrameworkConfig>
+
+	</Fixed>
+
+	<Custom>
+		<Tag1>aksdksd</Tag1>
+		<Tag2>aksdksd</Tag2>
+	</Custom>
+
+</config>

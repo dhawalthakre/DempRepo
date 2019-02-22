@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="VerifyRedirectRule"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="184.619">
+  <properties />
+  
+  
+            <testcase name="runEscalateRule" time="184.619" classname="com.advantage.tests.YahooService.VerifyRedirectRule" />
+      
+</testsuite>

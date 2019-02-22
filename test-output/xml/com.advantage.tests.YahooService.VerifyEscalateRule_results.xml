@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="VerifyEscalateRule"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="180.690">
+  <properties />
+  
+  
+            <testcase name="runEscalateRule" time="180.690" classname="com.advantage.tests.YahooService.VerifyEscalateRule" />
+      
+</testsuite>
